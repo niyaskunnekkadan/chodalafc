@@ -44,7 +44,7 @@ html {
 /* hero-section */
 .hero-section{
     width: 100%;
-    height: 300px;
+    height: 200px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -55,12 +55,73 @@ html {
 @media (max-width: 480px) {
     .hero-section{
         width: 100%;
-        height: 200px;
+        height: 150px;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         border-bottom-left-radius:30px ;
         border-bottom-right-radius:30px ;
+    }
+}
+
+/* sunday-section */
+
+.sunday-section{
+    width: 100%;
+    height: 250px;
+    background-image: linear-gradient(to right, rgb(212, 85, 85),indigo,violet);
+    margin-top: 20px;
+    border-radius: 30px;
+    padding: 40px;
+}
+
+.sunday-section h2{
+    color: var(--klight);
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.sunday-section a{
+    color: grey;
+    font-size: 20px;
+}
+
+.sunday-section a:hover{
+    color: var(--klight);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.sunday-section .section-1 {
+    height: 100%;
+}
+
+@media (max-width: 480px) {
+    .sunday-section{
+        width: 95%;
+        height: 200px;
+        background-image: linear-gradient(to right, rgb(212, 85, 85),indigo,violet);
+        margin-top: 20px;
+        border-radius: 30px;
+        padding: 40px;
+    }
+
+    .sunday-section h2{
+        color: var(--klight);
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 16px;
+    }
+    
+    .sunday-section a{
+        color: grey;
+        font-size: 16px;
+    }
+
+    .sunday-section a:hover{
+        color: var(--klight);
+        font-size: 16px;
+        text-decoration: none;
     }
 }
 
