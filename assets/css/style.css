@@ -82,7 +82,7 @@ html {
 }
 
 .sunday-section a{
-    color: grey;
+    color: rgb(177, 177, 177);
     font-size: 20px;
 }
 
@@ -98,9 +98,10 @@ html {
 
 @media (max-width: 480px) {
     .sunday-section{
-        width: 95%;
+        float: none;
+        width: 100%;
         height: 200px;
-        background-image: linear-gradient(to right, rgb(212, 85, 85),indigo,violet);
+        background-image: linear-gradient(to right, rgb(212, 85, 85),indigo);
         margin-top: 20px;
         border-radius: 30px;
         padding: 40px;
@@ -114,13 +115,119 @@ html {
     }
     
     .sunday-section a{
-        color: grey;
+        color: rgb(177, 177, 177);
         font-size: 16px;
     }
 
     .sunday-section a:hover{
         color: var(--klight);
         font-size: 16px;
+        text-decoration: none;
+    }
+}
+
+/* album-section */
+
+.album-section{
+    height: 230px;
+    width: 100%;
+    margin-top: 20px; 
+    margin-bottom: 10px;
+}
+
+.album-section .vds-section{
+    height: 100%;
+    width: 49.5%;
+    background-image: linear-gradient(to right, #44A08D,#093637 );
+    float: left;
+    padding: 20px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 5px;
+}
+
+.album-section .img-section{
+    height: 100%;
+    width: 49.5%;
+    background-image: linear-gradient(to right,#093637,#283c86);
+    float: right;
+    padding: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 50%;
+}
+
+.album-section h2{ 
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--klight);
+    margin-top: 15%;
+}
+
+.album-section a{ 
+    font-size: 16px;
+    color: rgb(177, 177, 177);
+
+}
+
+.album-section a:hover{ 
+    font-size: 16px;
+    color: var(--klight);
+    text-decoration: none;
+}
+
+@media (max-width:480px) {
+    .album-section{
+        height: 200px;
+        width: 100%;
+        margin-top: 15px; 
+        margin-bottom: 10px;
+    }
+    
+    .album-section .vds-section{
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient(to right, #44A08D,#093637 );
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 20px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 100px;
+    }
+    
+    .album-section .img-section{
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient(to right,#093637,#283c86);
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 20px;
+        border-top-left-radius: 100px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+    
+    .album-section h2{ 
+        font-size: 29px;
+        font-weight: bold;
+        color: var(--klight);
+        margin-top: 15%;
+    }
+    
+    .album-section a{ 
+        font-size: 15px;
+        color: rgb(177, 177, 177);
+    
+    }
+    
+    .album-section a:hover{ 
+        font-size: 15px;
+        color: var(--klight);
         text-decoration: none;
     }
 }
