@@ -180,14 +180,14 @@ html {
 
 @media (max-width:480px) {
     .album-section{
-        height: 200px;
+        height: 400px;
         width: 100%;
         margin-top: 15px; 
-        margin-bottom: 10px;
+        margin-bottom: 10px; 
     }
     
     .album-section .vds-section{
-        height: 100%;
+        height: 49%;
         width: 100%;
         background-image: linear-gradient(to right, #44A08D,#093637 );
         margin-top: 5px;
@@ -200,7 +200,7 @@ html {
     }
     
     .album-section .img-section{
-        height: 100%;
+        height: 49%;
         width: 100%;
         background-image: linear-gradient(to right,#093637,#283c86);
         margin-top: 5px;
@@ -232,4 +232,92 @@ html {
     }
 }
 
- 
+/* ppl-tms-section  */
+
+.ppl-tms-section{
+    margin-top: 15px;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.ppl-tms-section .ppl-section{
+    width: 49.5%;
+    height: 100%;
+    background-image: linear-gradient(to right,#200122,#6f0000);
+    float: left;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.ppl-tms-section .tms-section{
+    width: 49.5%;
+    height: 100%;
+    background-image: linear-gradient(to right,#093028,#237A57);
+    float: right;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.ppl-tms-section h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--klight);
+    margin-top: 30px;
+}
+
+.ppl-tms-section a{
+    font-size: 16px;
+    color: rgb(177, 177, 177);
+}
+
+.ppl-tms-section a:hover{
+    font-size: 16px;
+    color: var(--klight);
+    text-decoration: none;
+}
+
+@media (max-width:480px) {
+    .ppl-tms-section{
+        margin-top: 20px;
+        width: 100%;
+        height: 400px;
+        margin-bottom: 10px;
+    }
+
+    .ppl-tms-section .ppl-section{
+        width: 100%;
+        height: 49.5%;
+        background-image: linear-gradient(to right,#200122,#6f0000); 
+        padding: 20px;
+        border-radius: 30px;
+        margin-bottom: 5px;
+    }
+    
+    .ppl-tms-section .tms-section{
+        width: 100%;
+        height: 49.5%;
+        background-image: linear-gradient(to right,#093028,#237A57); 
+        padding: 20px;
+        border-radius: 30px;
+        margin-top: 5px;
+    }
+    
+    .ppl-tms-section h2{
+        font-size: 30px;
+        font-weight: bold;
+        color: var(--klight);
+        margin-top: 30px;
+    }
+    
+    .ppl-tms-section a{
+        font-size: 16px;
+        color: rgb(177, 177, 177);
+    }
+    
+    .ppl-tms-section a:hover{
+        font-size: 16px;
+        color: var(--klight);
+        text-decoration: none;
+    }
+}
