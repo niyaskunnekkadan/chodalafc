@@ -76,6 +76,7 @@ html {
 }
 
 /* counter section */
+
 .count-section{
   width: 100%;
   height: 200px; 
@@ -128,13 +129,13 @@ html {
 
   .count-section{
     width: 100%;
-    height: 600px; 
+    height: 300px; 
     margin-top: 20px; 
   }
   
   .count-section .count-block{
     width: 46%;
-    height: 24%;
+    height: 48%;
     background-image: linear-gradient(to right,#0F2027,#203A43,#2C5364);
     float: left;
     margin-top: 5px;
@@ -144,7 +145,7 @@ html {
 
   .count-section .count-block:hover{
     width: 46%;
-    height: 24%;
+    height: 48%;
     background-image: linear-gradient(to right,#0F2027,#203A43,#2C5364);
     float: left;
     margin-top: 5px;
@@ -166,3 +167,13 @@ html {
     font-weight: 400;
   }
 }
+
+/* table-section */
+.table-section{
+  margin-top: 25px;
+  margin-bottom: 5px;
+  width: 100%;
+  height: max-content;
+  padding: 10px; 
+}
+
