@@ -177,3 +177,78 @@ html {
   padding: 10px; 
 }
 
+/* winners section */
+.winners-section{
+  margin-top: 14px;
+  width: 100%;
+  height: max-content; 
+  padding: 12px;
+}
+
+.winners-section .winner-card{
+  background-image: linear-gradient(to right,#3E5151,#DECBA4);
+  width: 48%;
+  height: max-content;
+  float: left;
+  margin: 5px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.winners-section .winners-sec{
+  height: 260px;
+  width: 100%;
+}
+
+.winners-section h2{
+  font-size: 30px;
+  font-weight: bold;
+  color: var(--klight);
+  text-align: center;
+}
+
+.winners-section p{
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--kgrey);
+  text-align: center;
+}
+
+@media (max-width:480px) {
+  
+  .winners-section{
+    margin-top: 10px;
+    width: 100%;
+    height: max-content; 
+    padding: 12px;
+  }
+  
+  .winners-section .winner-card{
+    background-image: linear-gradient(to right,#3E5151,#DECBA4);
+    width: 100%;
+    height: max-content;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 20px;
+    border-radius: 30px;
+  }
+  
+  .winners-section .winners-sec{
+    height: 260px;
+    width: 100%;
+  }
+  
+  .winners-section h2{
+    font-size: 27px;
+    font-weight: bold;
+    color: var(--klight);
+    text-align: center;
+  }
+  
+  .winners-section p{
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--kgrey);
+    text-align: center;
+  }
+}
