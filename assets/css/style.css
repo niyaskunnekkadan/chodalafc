@@ -334,7 +334,7 @@ html {
 
 .contact-map-section .contact-section {
     width: 34%;
-    height: max-content; 
+    height: max-content;
     float: right;
     display: flex;
     align-items: center;
@@ -349,32 +349,33 @@ html {
 }
 
 .contact-map-section form {
-    background-image: linear-gradient(to right, #0F2027, #203A43,#2C5364);
+    background-image: linear-gradient(to right, #0F2027, #203A43, #2C5364);
     display: flex;
     flex-direction: column;
-    padding:2vw 4vw;
+    padding: 2vw 4vw;
     width: 100%;
     max-width: 600px;
     border-radius: 10px;
 
 }
 
-form h4{
+form h4 {
     color: var(--klight);
 }
 
-form input,form textarea{
+form input,
+form textarea {
     border: .2px solid var(--klight);
     margin: 4px 0;
     padding: 15px;
     outline: none;
     color: var(--klight);
-    background-image: linear-gradient(to right, #0F2027, #203A43,#2C5364);
+    background-image: linear-gradient(to right, #0F2027, #203A43, #2C5364);
     font-size: 13px;
     border-radius: 6px;
-} 
+}
 
-form button{
+form button {
     padding: 8px;
     background-color: #203A43;
     color: white;
@@ -382,13 +383,13 @@ form button{
     border: 0;
     outline: none;
     cursor: pointer;
-    width: 120px; 
+    width: 120px;
     border-radius: 30px;
     margin-top: 5px;
     align-self: flex-end;
 }
 
-form button:hover{ 
+form button:hover {
     padding: 8px;
     background-color: #0F2027;
     color: white;
@@ -396,7 +397,7 @@ form button:hover{
     border: 0;
     outline: none;
     cursor: pointer;
-    width: 120px; 
+    width: 120px;
     border-radius: 30px;
     margin-top: 5px;
     align-self: flex-end;
@@ -409,39 +410,39 @@ form button:hover{
         margin-top: 15px;
         margin-bottom: 5px;
     }
-    
+
     .contact-map-section .contact-section {
         width: 100%;
-        height: max-content;  
+        height: max-content;
         display: flex;
         align-items: center;
         justify-content: center;
         padding: 10px;
     }
-    
+
     .contact-map-section .map-section {
         width: 100%;
         height: 140px;
-        background-color: orange; 
+        background-color: orange;
         padding: 15px;
     }
-    
+
     .contact-map-section form {
         background-image: linear-gradient(to right, #0F2027, #203A43);
         display: flex;
         flex-direction: column;
-        padding:2vw 4vw;
+        padding: 2vw 4vw;
         width: 100%;
         max-width: 600px;
         border-radius: 10px;
-    
     }
-    
-    form h4{
+
+    form h4 {
         color: var(--klight);
     }
-    
-    form input,form textarea{
+
+    form input,
+    form textarea {
         border: .2px solid var(--klight);
         margin: 4px 0;
         padding: 15px;
@@ -450,9 +451,9 @@ form button:hover{
         background-image: linear-gradient(to right, #0F2027, #203A43);
         font-size: 13px;
         border-radius: 6px;
-    } 
-    
-    form button{
+    }
+
+    form button {
         padding: 8px;
         background-color: #203A43;
         color: white;
@@ -460,13 +461,13 @@ form button:hover{
         border: 0;
         outline: none;
         cursor: pointer;
-        width: 120px; 
+        width: 120px;
         border-radius: 30px;
         margin-top: 5px;
         align-self: flex-end;
     }
-    
-    form button:hover{ 
+
+    form button:hover {
         padding: 8px;
         background-color: #0F2027;
         color: white;
@@ -474,10 +475,9 @@ form button:hover{
         border: 0;
         outline: none;
         cursor: pointer;
-        width: 120px; 
+        width: 120px;
         border-radius: 30px;
         margin-top: 5px;
         align-self: flex-end;
     }
 }
- 

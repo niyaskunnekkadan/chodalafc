@@ -186,7 +186,7 @@ html {
 }
 
 .winners-section .winner-card{
-  background-image: linear-gradient(to right,#3E5151,#DECBA4);
+  background-image: linear-gradient(to right, rgb(212, 85, 85),indigo,violet);
   width: 48%;
   height: max-content;
   float: left;
@@ -224,7 +224,7 @@ html {
   }
   
   .winners-section .winner-card{
-    background-image: linear-gradient(to right,#3E5151,#DECBA4);
+    background-image: linear-gradient(to right,indigo,violet);
     width: 100%;
     height: max-content;
     margin-top: 5px;
