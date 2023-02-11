@@ -343,9 +343,8 @@ html {
 
 .contact-map-section .map-section {
     width: 65%;
-    height: 360px;
-    background-color: greenyellow;
-    float: left;
+    height: 360px; 
+    float: left; 
 }
 
 .contact-map-section form {
@@ -422,9 +421,7 @@ form button:hover {
 
     .contact-map-section .map-section {
         width: 100%;
-        height: 140px;
-        background-color: orange;
-        padding: 15px;
+        height: 180px; 
     }
 
     .contact-map-section form {
