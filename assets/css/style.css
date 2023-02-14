@@ -326,7 +326,7 @@ html {
 
 /* contact-map-section */
 .contact-map-section {
-    height: max-content;
+    height: 360px;
     width: 100%;
     margin-top: 15px;
     margin-bottom: 5px;
@@ -334,7 +334,7 @@ html {
 
 .contact-map-section .contact-section {
     width: 34%;
-    height: max-content;
+    height: 360px;
     float: right;
     display: flex;
     align-items: center;
@@ -343,7 +343,7 @@ html {
 
 .contact-map-section .map-section {
     width: 65%;
-    height: 360px; 
+    height: 100%; 
     float: left; 
 }
 
@@ -404,10 +404,10 @@ form button:hover {
 
 @media (max-width:480px) {
     .contact-map-section {
-        height: max-content;
+        height: 550px;
         width: 100%;
         margin-top: 15px;
-        margin-bottom: 5px;
+        margin-bottom: 15px;
     }
 
     .contact-map-section .contact-section {
