@@ -91,23 +91,23 @@ html {
   float: left;
   margin-left: 5px;
   margin-right: 5px;
-  border-top-left-radius: 80px;
-  border-top-right-radius: 3px;
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 80px;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
 }
 
 .count-section .count-block:hover{
   width: 24%;
   height: 100%;
-  background-image: linear-gradient(to right,#0f2129,#203A43,#2f5464);
+  background-image: linear-gradient(to right,#2f5464,#203A43,#0F2027);
   float: left;
   margin-left: 5px;
   margin-right: 5px;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 80px;
-  border-bottom-left-radius: 80px;
-  border-bottom-right-radius: 3px;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
 }
 
 
